@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/MaximDik/http-rest-api/internal/apiserver"
+	"github.com/MaximDik/http-rest-api/internal/app/apiserver"
 )
 
 func main() {
@@ -12,4 +12,5 @@ func main() {
 	if err := s.Start(); err != nil {
 		log.Fatal(err)
 	}
+
 }
