@@ -1,2 +1,2 @@
-bind_addr = ":8082"
-log_level = "info"
+bind_addr = ":8080"
+log_level = "debug"
