@@ -1,2 +1,5 @@
 bind_addr = ":8080"
 log_level = "debug"
+
+[store]
+database_url = "user=max password=Nt[ybrf575 dbname=restapi_dev sslmode=disable"
